@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*全体の大きさ*/
+body{
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;/*余白*/
+  margin-left: 50px;/*余白*/
+  text-align: center; /*文字を中央にする*/
+}
+
+
+.counter{
+  font-size: 40px;/*00のところの文字の大きさ*/
+}
+
+.time{
+  background-color: #ffff00;/*黄色*/
+  /*丸いところ*/
+  width: 500px;
+  border-radius: 30px; /*丸い所の角*/
+  line-height: 100px;
+}
+
+button{
+  height: 60px;
+  border-color: #ffffe0;/*レモン色*/
+  border-radius: 20px; /*丸い所の角*/
+  font-size: 20px;
+}
